@@ -63,3 +63,13 @@
     background-color: #64CCC5;
     color: #000;
 }
+
+@media screen and (max-width: 456px) {  
+    .description {
+        display: none;
+    }
+    
+    .bottom-area {
+        width: 100%;
+    }
+}
