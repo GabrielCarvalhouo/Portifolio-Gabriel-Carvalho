@@ -1,9 +1,98 @@
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+ 
+:target {
+  scroll-margin-top: .8em;
+}
+
 * {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 0;
   padding: 0;
+  user-select: none;
 }
 
 body {
   background-color: #cccccc;
+}
+
+#App-container {
+  height: 100vh;
+  flex-direction: column;
+}
+
+#id-header {
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%; 
+}
+
+.nav-container {
+  margin-top: 10px;
+  display: flex;
+  height: auto;
+}
+
+.middle-container {
+  padding: 10px 5px 10px 5px;
+  display: flex;
+  max-height: 70%;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-content {
+  width: 100%;
+  background-color: aqua; 
+  padding: 20px 5px 20px 5px;
+}
+
+@media screen and (max-width: 510px) {
+  .nav-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+@media screen and (min-width: 510px) {
+  .middle-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .nav-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 630px) and (min-width: 510px) {
+  body {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .middle-container {
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 1780px) {
+  .middle-container {
+    width: 45%;
+  }
+}
+
+/* -------- Footer -------- */
+
+#id-footer {
+  position: fixed;
+  bottom:0;
+  left: 0;
+  width: 100%;
 }
