@@ -1,31 +1,19 @@
-import React, { image } from "react";
+import React from "react";
 
 import "./styles/App.css";
 
-import Header from "./components/Header";
 import BtnMenu from "./components/BtnMenu";
+import Header from "./components/Header";
+import MiddlePage from "./components/MiddlePage";
 import Footer from "./components/Footer";
 
 const App = () => {
   return (
-
-    <div id="App-container">
-      <div id="id-header">
-        <Header />
+    <div className="app-container">
         <BtnMenu />
-      </div>
-      <nav className="nav-container">
-        <div className="middle-container">
-          <div className="middle-content">
-            <div className="-middle-items">
-              <h1>Em breve atualizações</h1>
-            </div>
-          </div>
-        </div>
-        <div id="id-footer">
-          <Footer />
-        </div>
-      </nav>
+        <Header />
+        <MiddlePage />
+        <Footer/>
     </div>
   );
 };

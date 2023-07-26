@@ -1,22 +1,15 @@
-import React from 'react'
+import React from "react";
 
-import BtnLinks from './BtnLinks'
-
-import '../styles/Header.css'
+import "../styles/App.css";
 
 const Header = () => {
   return (
-    <div className='container-header'>
-        <div className='content-header'>
-            <div className='menu'>
-                <h1 className='name'>Gabriel Carvalho</h1> 
-            </div>
-            <div className='btn-menu'>
-                <BtnLinks/>
-            </div>
-        </div>  
+    <div className="container-header">
+      <div className="content-header">
+          <h1 className="title-header">Gabriel Carvalho</h1>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
