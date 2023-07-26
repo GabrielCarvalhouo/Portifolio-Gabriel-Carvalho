@@ -24,11 +24,11 @@ function BtnMenu() {
           <ul className="list-items">
             <li>
               <GithubOutlined className="item-icon"/>
-               <a href="https://github.com/GabrielCarvalhouo">github</a> 
+               <a target="_blank" href="https://github.com/GabrielCarvalhouo">github</a> 
             </li>
             <li>
               <LinkedinFilled className="item-icon"/>
-               <a href="https://www.linkedin.com/in/gabriel-carvalho-a110371a1/">Linkedin</a> 
+               <a target="_blank" href="https://www.linkedin.com/in/gabriel-carvalho-a110371a1/">Linkedin</a> 
             </li>
             <li>
               <UserOutlined className="item-icon"/>
