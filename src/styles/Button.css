@@ -109,6 +109,7 @@ a {
     text-decoration: none;
     color: #000;
     margin-left: 2px;
+    user-select: none;
 }
 
 .menu.menuOpen a{
