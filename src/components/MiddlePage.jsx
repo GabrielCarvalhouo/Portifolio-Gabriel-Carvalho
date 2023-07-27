@@ -1,20 +1,25 @@
 import React from 'react'
 
-import imageDescription from "../img/avatartransparentbg.png"
+import sobreMim from "../mocks/Description"
+
+import imageDescription from "../img/backgroundimg.svg"
 
 import '../styles/App.css'
 
-const Content = () => {
+export default function Content() {
+
   return (
-    <div className='middle-container'>   
-      <h1>Seja bem vindo ao meu portifólio</h1>
-      <h2>Em breve irei trazer mais atualizações</h2> 
+    <div className='middle-container'>    
         <div className='middle-content'>
-          <img className='background-image-links' src={imageDescription} alt="Homem Sentado ao lado de uma impressora"/> 
+          <div className='description'>
+            <h1>{sobreMim.title}</h1>
+            <p>{sobreMim.paragraph}</p>
+          </div>
+          <div className='bg-image-middle'>
+            <img className='background-image-links' src={imageDescription} alt="Homem em pé buscando um documento"/> 
+          </div>
         </div>
     </div>
     
   )
 }
-
-export default Content;

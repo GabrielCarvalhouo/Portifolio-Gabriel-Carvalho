@@ -17,7 +17,7 @@
     left: 10%;
     width: 30px;
     height: 6px;
-    background-color: #ddddddb7;
+    background-color: #ffffffb7;
     position: absolute;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: 0.2s;
@@ -29,7 +29,7 @@
     position: absolute;
     width: 37px;
     height: 6px;
-    background: #ddddddb7;
+    background: #ffffffb7;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: 0.5s;
 }
@@ -40,7 +40,7 @@
     position: absolute;
     width: 37px;
     height: 6px;
-    background: #ddddddb7;
+    background: #ffffffb7;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: 0.5s;
 }

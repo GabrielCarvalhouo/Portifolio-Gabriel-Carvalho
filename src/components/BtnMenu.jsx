@@ -30,10 +30,10 @@ function BtnMenu() {
               <LinkedinFilled className="item-icon"/>
                <a target="_blank" href="https://www.linkedin.com/in/gabriel-carvalho-a110371a1/">Linkedin</a> 
             </li>
-            <li>
+            {/* <li>
               <UserOutlined className="item-icon"/>
                <a href="#">Sobre mim</a> 
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

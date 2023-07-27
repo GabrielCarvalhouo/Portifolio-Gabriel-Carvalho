@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="app-container">
+    <div className="App">
         <BtnMenu />
         <Header />
         <MiddlePage />
